@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C17C44BE1B48D49700EE8EA5 /* YahooLocationWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17C44BD1B48D49700EE8EA5 /* YahooLocationWrapper.swift */; };
+		C1C2E5221B43A93300772719 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C2E5211B43A93300772719 /* AppDelegate.swift */; };
+		C1C2E5241B43A93300772719 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C2E5231B43A93300772719 /* ViewController.swift */; };
+		C1C2E5271B43A93300772719 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1C2E5251B43A93300772719 /* Main.storyboard */; };
+		C1C2E5291B43A93300772719 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1C2E5281B43A93300772719 /* Images.xcassets */; };
+		C1C2E52C1B43A93300772719 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1C2E52A1B43A93300772719 /* LaunchScreen.xib */; };
+		C1C2E5381B43A93400772719 /* WebApiAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C2E5371B43A93400772719 /* WebApiAppTests.swift */; };
+		C1C2E5441B43AC6700772719 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C2E5431B43AC6700772719 /* UIKit.framework */; };
+		C1C2E5481B43ACD000772719 /* YMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C2E5471B43ACD000772719 /* YMapKit.framework */; };
+		C1C2E54A1B43ACE500772719 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C2E5491B43ACE500772719 /* SystemConfiguration.framework */; };
+		C1C2E54C1B43ACEE00772719 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C2E54B1B43ACEE00772719 /* CoreGraphics.framework */; };
+		C1C2E54E1B43ACFC00772719 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C2E54D1B43ACFC00772719 /* CoreLocation.framework */; };
+		C1C2E5501B43AD0800772719 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C2E54F1B43AD0800772719 /* Foundation.framework */; };
+		C1C2E5521B43AD2400772719 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C2E5511B43AD2400772719 /* OpenGLES.framework */; };
+		C1C2E5541B43AD3100772719 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C2E5531B43AD3100772719 /* QuartzCore.framework */; };
+		C1C2E5561B43AD5000772719 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C2E5551B43AD5000772719 /* libxml2.2.dylib */; };
+		C1C2E55E1B43EE1600772719 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C2E55D1B43EE1600772719 /* MapViewController.swift */; };
+		C1C2E5601B43EE1D00772719 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C2E55F1B43EE1D00772719 /* TableViewController.swift */; };
+		C1C2E5621B43EEB200772719 /* ShopInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C2E5611B43EEB200772719 /* ShopInfoViewController.swift */; };
+		C1C2E5641B43EF0800772719 /* ShopModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C2E5631B43EF0800772719 /* ShopModel.swift */; };
+		C1C2E5661B43F11800772719 /* MyAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C2E5651B43F11800772719 /* MyAnnotation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1C2E5321B43A93400772719 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1C2E5141B43A93300772719 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1C2E51B1B43A93300772719;
+			remoteInfo = WebApiApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C17C44BD1B48D49700EE8EA5 /* YahooLocationWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YahooLocationWrapper.swift; sourceTree = "<group>"; };
+		C1C2E51C1B43A93300772719 /* WebApiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebApiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1C2E5201B43A93300772719 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1C2E5211B43A93300772719 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C1C2E5231B43A93300772719 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C1C2E5261B43A93300772719 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1C2E5281B43A93300772719 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C1C2E52B1B43A93300772719 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C1C2E5311B43A93400772719 /* WebApiAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebApiAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1C2E5361B43A93400772719 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1C2E5371B43A93400772719 /* WebApiAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebApiAppTests.swift; sourceTree = "<group>"; };
+		C1C2E5431B43AC6700772719 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C1C2E5451B43ACB400772719 /* YMap */ = {isa = PBXFileReference; lastKnownFileType = folder; name = YMap; path = "../../Downloads/mapsdk_ios 2/YMap"; sourceTree = "<group>"; };
+		C1C2E5471B43ACD000772719 /* YMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YMapKit.framework; path = "../../Downloads/mapsdk_ios 2/YMap/YMapKit.framework"; sourceTree = "<group>"; };
+		C1C2E5491B43ACE500772719 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C1C2E54B1B43ACEE00772719 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C1C2E54D1B43ACFC00772719 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C1C2E54F1B43AD0800772719 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C1C2E5511B43AD2400772719 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		C1C2E5531B43AD3100772719 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C1C2E5551B43AD5000772719 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		C1C2E5571B43B10E00772719 /* WebApiApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WebApiApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		C1C2E55D1B43EE1600772719 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		C1C2E55F1B43EE1D00772719 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		C1C2E5611B43EEB200772719 /* ShopInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopInfoViewController.swift; sourceTree = "<group>"; };
+		C1C2E5631B43EF0800772719 /* ShopModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopModel.swift; sourceTree = "<group>"; };
+		C1C2E5651B43F11800772719 /* MyAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAnnotation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1C2E5191B43A93300772719 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C2E5561B43AD5000772719 /* libxml2.2.dylib in Frameworks */,
+				C1C2E5541B43AD3100772719 /* QuartzCore.framework in Frameworks */,
+				C1C2E5521B43AD2400772719 /* OpenGLES.framework in Frameworks */,
+				C1C2E5501B43AD0800772719 /* Foundation.framework in Frameworks */,
+				C1C2E54E1B43ACFC00772719 /* CoreLocation.framework in Frameworks */,
+				C1C2E54C1B43ACEE00772719 /* CoreGraphics.framework in Frameworks */,
+				C1C2E54A1B43ACE500772719 /* SystemConfiguration.framework in Frameworks */,
+				C1C2E5481B43ACD000772719 /* YMapKit.framework in Frameworks */,
+				C1C2E5441B43AC6700772719 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C2E52E1B43A93400772719 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1C2E5131B43A93300772719 = {
+			isa = PBXGroup;
+			children = (
+				C1C2E5551B43AD5000772719 /* libxml2.2.dylib */,
+				C1C2E5531B43AD3100772719 /* QuartzCore.framework */,
+				C1C2E5511B43AD2400772719 /* OpenGLES.framework */,
+				C1C2E54F1B43AD0800772719 /* Foundation.framework */,
+				C1C2E54D1B43ACFC00772719 /* CoreLocation.framework */,
+				C1C2E54B1B43ACEE00772719 /* CoreGraphics.framework */,
+				C1C2E5491B43ACE500772719 /* SystemConfiguration.framework */,
+				C1C2E5471B43ACD000772719 /* YMapKit.framework */,
+				C1C2E5451B43ACB400772719 /* YMap */,
+				C1C2E5431B43AC6700772719 /* UIKit.framework */,
+				C1C2E51E1B43A93300772719 /* WebApiApp */,
+				C1C2E5341B43A93400772719 /* WebApiAppTests */,
+				C1C2E51D1B43A93300772719 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1C2E51D1B43A93300772719 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1C2E51C1B43A93300772719 /* WebApiApp.app */,
+				C1C2E5311B43A93400772719 /* WebApiAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1C2E51E1B43A93300772719 /* WebApiApp */ = {
+			isa = PBXGroup;
+			children = (
+				C1C2E5611B43EEB200772719 /* ShopInfoViewController.swift */,
+				C1C2E55F1B43EE1D00772719 /* TableViewController.swift */,
+				C1C2E55D1B43EE1600772719 /* MapViewController.swift */,
+				C1C2E5211B43A93300772719 /* AppDelegate.swift */,
+				C1C2E5231B43A93300772719 /* ViewController.swift */,
+				C1C2E5631B43EF0800772719 /* ShopModel.swift */,
+				C1C2E5651B43F11800772719 /* MyAnnotation.swift */,
+				C1C2E5251B43A93300772719 /* Main.storyboard */,
+				C1C2E5281B43A93300772719 /* Images.xcassets */,
+				C1C2E52A1B43A93300772719 /* LaunchScreen.xib */,
+				C1C2E51F1B43A93300772719 /* Supporting Files */,
+				C1C2E5571B43B10E00772719 /* WebApiApp-Bridging-Header.h */,
+				C17C44BD1B48D49700EE8EA5 /* YahooLocationWrapper.swift */,
+			);
+			path = WebApiApp;
+			sourceTree = "<group>";
+		};
+		C1C2E51F1B43A93300772719 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1C2E5201B43A93300772719 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1C2E5341B43A93400772719 /* WebApiAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1C2E5371B43A93400772719 /* WebApiAppTests.swift */,
+				C1C2E5351B43A93400772719 /* Supporting Files */,
+			);
+			path = WebApiAppTests;
+			sourceTree = "<group>";
+		};
+		C1C2E5351B43A93400772719 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1C2E5361B43A93400772719 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1C2E51B1B43A93300772719 /* WebApiApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1C2E53B1B43A93400772719 /* Build configuration list for PBXNativeTarget "WebApiApp" */;
+			buildPhases = (
+				C1C2E5181B43A93300772719 /* Sources */,
+				C1C2E5191B43A93300772719 /* Frameworks */,
+				C1C2E51A1B43A93300772719 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebApiApp;
+			productName = WebApiApp;
+			productReference = C1C2E51C1B43A93300772719 /* WebApiApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1C2E5301B43A93400772719 /* WebApiAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1C2E53E1B43A93400772719 /* Build configuration list for PBXNativeTarget "WebApiAppTests" */;
+			buildPhases = (
+				C1C2E52D1B43A93400772719 /* Sources */,
+				C1C2E52E1B43A93400772719 /* Frameworks */,
+				C1C2E52F1B43A93400772719 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1C2E5331B43A93400772719 /* PBXTargetDependency */,
+			);
+			name = WebApiAppTests;
+			productName = WebApiAppTests;
+			productReference = C1C2E5311B43A93400772719 /* WebApiAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1C2E5141B43A93300772719 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Tanajun99;
+				TargetAttributes = {
+					C1C2E51B1B43A93300772719 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					C1C2E5301B43A93400772719 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = C1C2E51B1B43A93300772719;
+					};
+				};
+			};
+			buildConfigurationList = C1C2E5171B43A93300772719 /* Build configuration list for PBXProject "WebApiApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1C2E5131B43A93300772719;
+			productRefGroup = C1C2E51D1B43A93300772719 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1C2E51B1B43A93300772719 /* WebApiApp */,
+				C1C2E5301B43A93400772719 /* WebApiAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1C2E51A1B43A93300772719 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C2E5271B43A93300772719 /* Main.storyboard in Resources */,
+				C1C2E52C1B43A93300772719 /* LaunchScreen.xib in Resources */,
+				C1C2E5291B43A93300772719 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C2E52F1B43A93400772719 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1C2E5181B43A93300772719 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C2E5661B43F11800772719 /* MyAnnotation.swift in Sources */,
+				C1C2E5621B43EEB200772719 /* ShopInfoViewController.swift in Sources */,
+				C1C2E5241B43A93300772719 /* ViewController.swift in Sources */,
+				C1C2E55E1B43EE1600772719 /* MapViewController.swift in Sources */,
+				C1C2E5221B43A93300772719 /* AppDelegate.swift in Sources */,
+				C1C2E5601B43EE1D00772719 /* TableViewController.swift in Sources */,
+				C1C2E5641B43EF0800772719 /* ShopModel.swift in Sources */,
+				C17C44BE1B48D49700EE8EA5 /* YahooLocationWrapper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1C2E52D1B43A93400772719 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1C2E5381B43A93400772719 /* WebApiAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1C2E5331B43A93400772719 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1C2E51B1B43A93300772719 /* WebApiApp */;
+			targetProxy = C1C2E5321B43A93400772719 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1C2E5251B43A93300772719 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1C2E5261B43A93300772719 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1C2E52A1B43A93300772719 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1C2E52B1B43A93300772719 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1C2E5391B43A93400772719 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1C2E53A1B43A93400772719 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1C2E53C1B43A93400772719 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/tanakajunnari/Downloads/mapsdk_ios,
+					2/YMap,
+				);
+				INFOPLIST_FILE = WebApiApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WebApiApp/WebApiApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1C2E53D1B43A93400772719 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/tanakajunnari/Downloads/mapsdk_ios,
+					2/YMap,
+				);
+				INFOPLIST_FILE = WebApiApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WebApiApp/WebApiApp-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		C1C2E53F1B43A93400772719 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WebApiAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebApiApp.app/WebApiApp";
+			};
+			name = Debug;
+		};
+		C1C2E5401B43A93400772719 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WebApiAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WebApiApp.app/WebApiApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1C2E5171B43A93300772719 /* Build configuration list for PBXProject "WebApiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1C2E5391B43A93400772719 /* Debug */,
+				C1C2E53A1B43A93400772719 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1C2E53B1B43A93400772719 /* Build configuration list for PBXNativeTarget "WebApiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1C2E53C1B43A93400772719 /* Debug */,
+				C1C2E53D1B43A93400772719 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1C2E53E1B43A93400772719 /* Build configuration list for PBXNativeTarget "WebApiAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1C2E53F1B43A93400772719 /* Debug */,
+				C1C2E5401B43A93400772719 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1C2E5141B43A93300772719 /* Project object */;
+}
